@@ -17,22 +17,22 @@
 
 typedef struct s_color
 {
-    int r;
-    int g;
-    int b;
+	int r;
+	int g;
+	int b;
 } t_color;
 typedef struct s_parse
 {
-    int x;
-    int y;
-    char *NO;
-    char *SO;
-    char *WE;
-    char *EA;
-    char *S;
-    t_color *floor;
-    t_color *ceilling;
-    int temp;
+	int x;
+	int y;
+	char *NO;
+	char *SO;
+	char *WE;
+	char *EA;
+	char *S;
+	t_color *floor;
+	t_color *ceilling;
+	int temp;
 
 } t_parse;
 
@@ -53,5 +53,7 @@ void verification_arg(t_parse *parse);
 t_parse *init_parse(t_parse *parse);
 
 int parser(t_parse *parse, char **argv);
+
+void inverse(char *string);
 
 #endif //CUB3D_CUB_H

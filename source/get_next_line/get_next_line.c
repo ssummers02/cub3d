@@ -134,5 +134,7 @@ int				get_next_line(int fd, char **line)
 	else
 		*line = ft_strdup(s);
 	ft_strdel(&s);
+	if (i == 0 && ft_strlen(s)> 0) // check?
+		return (1);
 	return (i);
 }

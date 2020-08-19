@@ -2,7 +2,6 @@
 
 int parser_help_r(char *ln, t_parse *parse)
 {
-
 	if (*ln == 'R')
 	{
 		if (parse->x != -1)

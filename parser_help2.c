@@ -126,7 +126,7 @@ int parser(t_parse *parse, char **argv)
 	fd = open(argv[1], O_RDONLY);
 	if (fd == -1)
 		return (-1);
-	while (( get_next_line(fd, &ln)) > 0)
+	while (( get_next_line(fd, &ln)) >= 0)
 	{
 		if (ch < 8)
 		{
@@ -134,9 +134,11 @@ int parser(t_parse *parse, char **argv)
 				ch++;
 		} else
 			printf("%s\n", ln);
+		printf("%s\n", ln);
+
 	}
 	free(ln);
 	close(fd);
-	verification_arg(parse);
+	//verification_arg(parse);
 	return 0;
 }
