@@ -36,11 +36,11 @@ stdlib.h
 unistd.h
 -
 
-/Users/kim/CLionProjects/cub3d/main.c
+/Users/ssummers/CLionProjects/cub3d/cub.h
 stdio.h
 -
 mlx.h
-/Users/kim/CLionProjects/cub3d/mlx.h
+/Users/ssummers/CLionProjects/cub3d/mlx.h
 fcntl.h
 -
 stdlib.h
@@ -52,9 +52,21 @@ string.h
 libftprint.h
 -
 get_next_line.h
-/Users/kim/CLionProjects/cub3d/get_next_line.h
+/Users/ssummers/CLionProjects/cub3d/get_next_line.h
 libft.h
-/Users/kim/CLionProjects/cub3d/libft.h
+/Users/ssummers/CLionProjects/cub3d/libft.h
 
-/Users/kim/CLionProjects/cub3d/mlx.h
+/Users/ssummers/CLionProjects/cub3d/main.c
+cub.h
+/Users/ssummers/CLionProjects/cub3d/cub.h
+
+/Users/ssummers/CLionProjects/cub3d/mlx.h
+
+/Users/ssummers/CLionProjects/cub3d/parser_help.c
+cub.h
+/Users/ssummers/CLionProjects/cub3d/cub.h
+
+/Users/ssummers/CLionProjects/cub3d/parser_help2.c
+cub.h
+/Users/ssummers/CLionProjects/cub3d/cub.h
 

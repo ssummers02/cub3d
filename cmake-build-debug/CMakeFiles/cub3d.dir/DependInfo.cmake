@@ -4,14 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/kim/CLionProjects/cub3d/main.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/main.c.o"
-  "/Users/kim/CLionProjects/cub3d/source/get_next_line/get_next_line.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o"
-  "/Users/kim/CLionProjects/cub3d/source/get_next_line/get_next_line_utils.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o"
-  "/Users/kim/CLionProjects/cub3d/source/libft/ft_atoi.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_atoi.c.o"
-  "/Users/kim/CLionProjects/cub3d/source/libft/ft_isalpha.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_isalpha.c.o"
-  "/Users/kim/CLionProjects/cub3d/source/libft/ft_isdigit.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_isdigit.c.o"
-  "/Users/kim/CLionProjects/cub3d/source/libft/ft_putstr_fd.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_putstr_fd.c.o"
-  "/Users/kim/CLionProjects/cub3d/source/libft/ft_strncmp.c" "/Users/kim/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_strncmp.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/help_func.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/help_func.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/init.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/init.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/main.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/main.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/parser_help.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/parser_help.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/parser_help2.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/parser_help2.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line_utils.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/source/libft/ft_atoi.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_atoi.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/source/libft/ft_isalpha.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_isalpha.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/source/libft/ft_isdigit.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_isdigit.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/source/libft/ft_putstr_fd.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_putstr_fd.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/source/libft/ft_strncmp.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/source/libft/ft_strncmp.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

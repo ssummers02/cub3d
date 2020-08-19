@@ -12,7 +12,7 @@ set(HEADER_FILES
         source/get_next_line/get_next_line.h
         source/libft/libft.h
         source/ft_printf/libftprint.h
-        )
+        cub.h)
 
 set(SRC_FILES
         source/libft/ft_atoi.c
@@ -23,7 +23,7 @@ set(SRC_FILES
         source/libft/ft_strncmp.c
         source/libft/ft_isalpha.c
         main.c
-        )
+        parser_help.c help_func.c init.c parser_help2.c)
 
 add_executable(cub3d
         ${HEADER_FILES}
