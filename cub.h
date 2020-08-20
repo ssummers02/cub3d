@@ -21,6 +21,11 @@ typedef struct s_color
 	int g;
 	int b;
 } t_color;
+typedef struct s_map
+{
+	size_t x;
+	size_t y;
+} t_map;
 typedef struct s_parse
 {
 	int x;
@@ -33,10 +38,14 @@ typedef struct s_parse
 	t_color *floor;
 	t_color *ceilling;
 	int temp;
+	t_map *map;
+	char **maps;
 
 } t_parse;
 
-void error();
+void error(char *c);
+
+void verification_map(t_parse *parse);
 
 int parser_help_r(char *ln, t_parse *parse);
 

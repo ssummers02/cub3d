@@ -5,7 +5,7 @@ int parser_help_r(char *ln, t_parse *parse)
 	if (*ln == 'R')
 	{
 		if (parse->x != -1)
-			error();
+			error("Incorrect value resolution");
 		ln++;
 		while (*ln == ' ')
 			ln++;
@@ -20,7 +20,7 @@ int parser_help_r(char *ln, t_parse *parse)
 		while (*ln == ' ')
 			ln++;
 		if (*ln != '\0')
-			error();
+			error("Error");
 	}
 	return 0;
 }
@@ -31,20 +31,22 @@ int parser_help_f(char *ln, t_parse *parse)
 	if (*ln == 'F')
 	{
 		if (parse->floor->r != -1)
-			error();
+			error("Incorrect Floor color");
 		ln++;
 		while (*ln == ' ')
 			ln++;
 		parse->floor->r = ft_atoi(ln);
 		while (ft_isdigit(*ln))
 			ln++;
-		if (*ln != ',') error();
+		if (*ln != ',') error("Error");
+
 
 		ln++;
 		parse->floor->g = ft_atoi(ln);
 		while (ft_isdigit(*ln))
 			ln++;
-		if (*ln != ',') error();
+		if (*ln != ',') error("Error");
+
 
 		ln++;
 		parse->floor->b = ft_atoi(ln);
@@ -53,7 +55,7 @@ int parser_help_f(char *ln, t_parse *parse)
 		while (*ln == ' ')
 			ln++;
 		if (*ln != '\0')
-			error();
+			error("Error");
 	}
 	return 0;
 }
@@ -64,20 +66,20 @@ int parser_help_c(char *ln, t_parse *parse)
 	if (*ln == 'C')
 	{
 		if (parse->ceilling->r != -1)
-			error();
+			error("Incorrect Ceilling color");
 		ln++;
 		while (*ln == ' ')
 			ln++;
 		parse->ceilling->r = ft_atoi(ln);
 		while (ft_isdigit(*ln))
 			ln++;
-		if (*ln != ',') error();
+		if (*ln != ',')error("Error");
 
 		ln++;
 		parse->ceilling->g = ft_atoi(ln);
 		while (ft_isdigit(*ln))
 			ln++;
-		if (*ln != ',') error();
+		if (*ln != ',') error("Error");
 
 		ln++;
 		parse->ceilling->b = ft_atoi(ln);
@@ -86,7 +88,7 @@ int parser_help_c(char *ln, t_parse *parse)
 		while (*ln == ' ')
 			ln++;
 		if (*ln != '\0')
-			error();
+			error("Error");
 	}
 	return 0;
 }
@@ -98,7 +100,7 @@ int parser_help_no(char *ln, t_parse *parse)
 	if (ft_strncmp("NO", ln, 2) == 0)
 	{
 		if (ft_strlen(parse->NO) != 0)
-			error();
+			error("Incorrect texture");
 		ln += 2;
 		while (*ln == ' ')
 			ln++;
@@ -109,12 +111,13 @@ int parser_help_no(char *ln, t_parse *parse)
 			parse->temp++;
 			ln++;
 		}
-		parse->NO = malloc(sizeof(char) * parse->temp);
+		if (!(parse->NO = malloc(sizeof(char) * parse->temp)))
+			return (-1);
 		parse->NO = ft_strcpy(parse->NO, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;
 		if (*ln != '\0')
-			error();
+			error("Error");
 	}
 	return 0;
 }
@@ -126,7 +129,7 @@ int parser_help_so(char *ln, t_parse *parse)
 	if (ft_strncmp("SO", ln, 2) == 0)
 	{
 		if (ft_strlen(parse->SO) != 0)
-			error();
+			error("Incorrect texture");
 		ln += 2;
 		while (*ln == ' ')
 			ln++;
@@ -137,12 +140,13 @@ int parser_help_so(char *ln, t_parse *parse)
 			parse->temp++;
 			ln++;
 		}
-		parse->SO = malloc(sizeof(char) * parse->temp);
+		if (!(parse->SO = malloc(sizeof(char) * parse->temp)))
+			return (-1);
 		parse->SO = ft_strcpy(parse->SO, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;
 		if (*ln != '\0')
-			error();
+			error("Error");
 	}
 	return 0;
 }
