@@ -34,6 +34,7 @@ int main(int argc, char **argv)
 	if (parser(parse, argv) == -1)
 		error("Error");
 
+
 	void    *mlx;
 	void    *mlx_win;
 	t_data  img;
