@@ -126,6 +126,26 @@ void checkmap(char *ln, t_parse *parse)
 		parse->map->x = ft_strlen(ln);
 }
 
+char *ft_strcpy_space(char *dst, const char *src, size_t len)
+{
+	int i;
+
+	i = 0;
+	while (src[i] != '\0')
+	{
+		dst[i] = src[i];
+		i++;
+	}
+	if (i != len)
+		while (i < len)
+		{
+			dst[i] = ' ';
+			i++;
+		}
+	dst[i] = '\0';
+	return (dst);
+}
+
 int parser(t_parse *parse, char **argv)
 {
 	int fd;
@@ -164,7 +184,9 @@ int parser(t_parse *parse, char **argv)
 			if (!(parse->maps[i] = (char *) malloc(
 					parse->map->x * sizeof(char))))
 				exit(-1);
-			ft_strcpy(parse->maps[i], ln);
+			ft_strcpy_space(parse->maps[i], ln, parse->map->x);
+			//ft_strcpy(parse->maps[i], ln);
+
 			i++;
 		}
 

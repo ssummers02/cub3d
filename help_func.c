@@ -25,14 +25,13 @@ void verification_arg(t_parse *parse)
 		open(parse->S, O_RDONLY) == -1)
 			error("Error open map");*/
 	verification_map(parse);
-
 }
 
 int validpos(t_parse *parse, int i, int j)
 {
 	if (parse->maps[i][j] == 'W' || parse->maps[i][j] == 'S' ||
 		parse->maps[i][j] == 'E' || parse->maps[i][j] == 'N' ||
-		parse->maps[i][j] == '1' || parse->maps[i][j] == '2' ||
+		parse->maps[i][j] == '2' || parse->maps[i][j] == '1' ||
 		parse->maps[i][j] == '0')
 		return 1;
 	return 0;
@@ -40,46 +39,43 @@ int validpos(t_parse *parse, int i, int j)
 
 void ver(t_parse *parse, int i, int j)
 {
-	if (validpos(parse, i + 1, j) == 0 || validpos(parse, i, j + 1) == 0 ||
-		validpos(parse, i - 1, j) == 0 || validpos(parse, i, j - 1) == 0)
+	if (validpos(parse, i + 1, j) != 1 || validpos(parse, i, j + 1) != 1 ||
+		validpos(parse, i - 1, j) != 1 || validpos(parse, i, j - 1) != 1)
 		error("Error maps");
 }
+
 
 void verification_map(t_parse *parse)
 {
 	int i;
 	int j;
+	int flag;
 
 	i = 0;
-	while (parse->maps[i])
+	flag = 0;
+	while (i < parse->map->y)
 	{
 		j = 0;
-		while (parse->maps[i][j])
+		printf("%s\n", parse->maps[i]);
+		while (j < parse->map->x)
 		{
-			if (i == 0 || j == 0)
+				if (parse->maps[i][j] == 'W' || parse->maps[i][j] == 'S' ||
+					parse->maps[i][j] == 'E' || parse->maps[i][j] == 'N')
+					flag++;
+			if (parse->maps[i][j] != '1' && parse->maps[i][j] != ' ')
 			{
-				if (parse->maps[i][j] == '1' || parse->maps[i][j] == ' ')
-				{
-					j++;
-				} else
-				{
+				if (!(i == 0 || j == 0 || j == parse->map->x - 1 ||
+					  i == parse->map->y - 1) && parse->maps[i][j] == '1')
 					error("Error maps");
-					j++;
-				}
-
-
-			} else
-			{
 				ver(parse, i, j);
-				j++;
-
 			}
-
+			j++;
 		}
+
 		i++;
 	}
-
-
+	if (flag != 1)
+		error("Error players");
 }
 
 void inverse(char *string)
