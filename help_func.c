@@ -59,9 +59,9 @@ void verification_map(t_parse *parse)
 		printf("%s\n", parse->maps[i]);
 		while (j < parse->map->x)
 		{
-				if (parse->maps[i][j] == 'W' || parse->maps[i][j] == 'S' ||
-					parse->maps[i][j] == 'E' || parse->maps[i][j] == 'N')
-					flag++;
+			if (parse->maps[i][j] == 'W' || parse->maps[i][j] == 'S' ||
+				parse->maps[i][j] == 'E' || parse->maps[i][j] == 'N')
+				flag++;
 			if (parse->maps[i][j] != '1' && parse->maps[i][j] != ' ')
 			{
 				if (!(i == 0 || j == 0 || j == parse->map->x - 1 ||
@@ -78,19 +78,11 @@ void verification_map(t_parse *parse)
 		error("Error players");
 }
 
-void inverse(char *string)
+void check_name_file(char *string)
 {
-	int lenght = ft_strlen(string);
-	char *p = string;
-	char *q = string + lenght - 1;
-
-	while (p > q)
-	{
-		char tmp = *p;
-		*p = *q;
-		*q = tmp;
-
-		p++;
-		q--;
-	}
+	if (string[ft_strlen(string)-1] != 'b' ||
+		string[ft_strlen(string) - 2] != 'u' ||
+		string[ft_strlen(string) - 3] != 'c' ||
+		string[ft_strlen(string) - 4] != '.' )
+		error("Invalid .cub");
 }

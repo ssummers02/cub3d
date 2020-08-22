@@ -63,6 +63,6 @@ t_parse *init_parse(t_parse *parse);
 
 int parser(t_parse *parse, char **argv);
 
-void inverse(char *string);
+void check_name_file(char *string);
 
 #endif //CUB3D_CUB_H

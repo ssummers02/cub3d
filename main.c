@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 	if (!(parse->map = (t_map *) malloc(sizeof(parse->map))))
 		return (-1);
 	parse = init_parse(parse);
-//	if (ft_strncmp(inverse(argv[1]), "buc.", 3))
+	check_name_file(argv[1]);
 	if (argc > 3)
 		error("Error count argv");
 	if (parser(parse, argv) == -1)

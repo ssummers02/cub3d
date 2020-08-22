@@ -185,8 +185,6 @@ int parser(t_parse *parse, char **argv)
 					parse->map->x * sizeof(char))))
 				exit(-1);
 			ft_strcpy_space(parse->maps[i], ln, parse->map->x);
-			//ft_strcpy(parse->maps[i], ln);
-
 			i++;
 		}
 
