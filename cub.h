@@ -6,14 +6,17 @@
 #define CUB3D_CUB_H
 
 #include <stdio.h>
-#include "mlx.h"
 #include <fcntl.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+/*
 #include <libftprint.h>
-#include "get_next_line.h"
+
+#include "get_next_line.h"*/
 #include "libft.h"
+#include "mlx.h"
+
 
 typedef struct s_color
 {

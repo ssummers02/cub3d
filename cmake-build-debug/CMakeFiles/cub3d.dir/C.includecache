@@ -6,59 +6,13 @@
 
 #IncludeRegexTransform: 
 
-../source/ft_printf/libftprint.h
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-zconf.h
--
-stddef.h
--
-stdarg.h
--
-ctype.h
--
+/Users/ssummers/CLionProjects/cub3d/minilibx/font.c
 
-../source/get_next_line/get_next_line.h
-stdlib.h
--
-zconf.h
--
+/Users/ssummers/CLionProjects/cub3d/minilibx/mlx.h
 
-../source/libft/libft.h
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-
-/Users/ssummers/CLionProjects/cub3d/cub.h
-stdio.h
--
+/Users/ssummers/CLionProjects/cub3d/minilibx/mlx_string_put.c
 mlx.h
-/Users/ssummers/CLionProjects/cub3d/mlx.h
-fcntl.h
--
-stdlib.h
--
-stdio.h
--
-string.h
--
-libftprint.h
--
-get_next_line.h
-/Users/ssummers/CLionProjects/cub3d/get_next_line.h
-libft.h
-/Users/ssummers/CLionProjects/cub3d/libft.h
-
-/Users/ssummers/CLionProjects/cub3d/help_func.c
-cub.h
-/Users/ssummers/CLionProjects/cub3d/cub.h
-
-/Users/ssummers/CLionProjects/cub3d/mlx.h
+/Users/ssummers/CLionProjects/cub3d/minilibx/mlx.h
+font.c
+/Users/ssummers/CLionProjects/cub3d/minilibx/font.c
 
