@@ -57,222 +57,222 @@ include CMakeFiles/cub3d.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cub3d.dir/flags.make
 
-CMakeFiles/cub3d.dir/libft/ft_atoi.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cub3d.dir/libft/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/libft/ft_atoi.c.o   -c /Users/ssummers/CLionProjects/cub3d/libft/ft_atoi.c
+CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.o: ../SRCS/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/ft_atoi.c
 
-CMakeFiles/cub3d.dir/libft/ft_atoi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/libft/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/libft/ft_atoi.c > CMakeFiles/cub3d.dir/libft/ft_atoi.c.i
+CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/ft_atoi.c > CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.i
 
-CMakeFiles/cub3d.dir/libft/ft_atoi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/libft/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/libft/ft_atoi.c -o CMakeFiles/cub3d.dir/libft/ft_atoi.c.s
+CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/ft_atoi.c -o CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.s
 
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o: ../source/get_next_line/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o   -c /Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line.c
+CMakeFiles/cub3d.dir/SRCS/get_next_line.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/get_next_line.c.o: ../SRCS/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cub3d.dir/SRCS/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/get_next_line.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/get_next_line.c
 
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line.c > CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.i
+CMakeFiles/cub3d.dir/SRCS/get_next_line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/get_next_line.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/get_next_line.c > CMakeFiles/cub3d.dir/SRCS/get_next_line.c.i
 
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line.c -o CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.s
+CMakeFiles/cub3d.dir/SRCS/get_next_line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/get_next_line.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/get_next_line.c -o CMakeFiles/cub3d.dir/SRCS/get_next_line.c.s
 
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o: ../source/get_next_line/get_next_line_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o   -c /Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line_utils.c
+CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.o: ../SRCS/get_next_line_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/get_next_line_utils.c
 
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line_utils.c > CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.i
+CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/get_next_line_utils.c > CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.i
 
-CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/source/get_next_line/get_next_line_utils.c -o CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.s
+CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/get_next_line_utils.c -o CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.s
 
-CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.o   -c /Users/ssummers/CLionProjects/cub3d/libft/ft_putstr_fd.c
+CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.o: ../SRCS/ft_putstr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/ft_putstr_fd.c
 
-CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/libft/ft_putstr_fd.c > CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.i
+CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/ft_putstr_fd.c > CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.i
 
-CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/libft/ft_putstr_fd.c -o CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.s
+CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/ft_putstr_fd.c -o CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.s
 
-CMakeFiles/cub3d.dir/libft/ft_isdigit.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/libft/ft_isdigit.c.o: ../libft/ft_isdigit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cub3d.dir/libft/ft_isdigit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/libft/ft_isdigit.c.o   -c /Users/ssummers/CLionProjects/cub3d/libft/ft_isdigit.c
+CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.o: ../SRCS/ft_isdigit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/ft_isdigit.c
 
-CMakeFiles/cub3d.dir/libft/ft_isdigit.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/libft/ft_isdigit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/libft/ft_isdigit.c > CMakeFiles/cub3d.dir/libft/ft_isdigit.c.i
+CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/ft_isdigit.c > CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.i
 
-CMakeFiles/cub3d.dir/libft/ft_isdigit.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/libft/ft_isdigit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/libft/ft_isdigit.c -o CMakeFiles/cub3d.dir/libft/ft_isdigit.c.s
+CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/ft_isdigit.c -o CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.s
 
-CMakeFiles/cub3d.dir/libft/ft_strncmp.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/libft/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cub3d.dir/libft/ft_strncmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/libft/ft_strncmp.c.o   -c /Users/ssummers/CLionProjects/cub3d/libft/ft_strncmp.c
+CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.o: ../SRCS/ft_strncmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/ft_strncmp.c
 
-CMakeFiles/cub3d.dir/libft/ft_strncmp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/libft/ft_strncmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/libft/ft_strncmp.c > CMakeFiles/cub3d.dir/libft/ft_strncmp.c.i
+CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/ft_strncmp.c > CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.i
 
-CMakeFiles/cub3d.dir/libft/ft_strncmp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/libft/ft_strncmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/libft/ft_strncmp.c -o CMakeFiles/cub3d.dir/libft/ft_strncmp.c.s
+CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/ft_strncmp.c -o CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.s
 
-CMakeFiles/cub3d.dir/libft/ft_isalpha.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/libft/ft_isalpha.c.o: ../libft/ft_isalpha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cub3d.dir/libft/ft_isalpha.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/libft/ft_isalpha.c.o   -c /Users/ssummers/CLionProjects/cub3d/libft/ft_isalpha.c
+CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.o: ../SRCS/ft_isalpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/ft_isalpha.c
 
-CMakeFiles/cub3d.dir/libft/ft_isalpha.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/libft/ft_isalpha.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/libft/ft_isalpha.c > CMakeFiles/cub3d.dir/libft/ft_isalpha.c.i
+CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/ft_isalpha.c > CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.i
 
-CMakeFiles/cub3d.dir/libft/ft_isalpha.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/libft/ft_isalpha.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/libft/ft_isalpha.c -o CMakeFiles/cub3d.dir/libft/ft_isalpha.c.s
+CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/ft_isalpha.c -o CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.s
 
-CMakeFiles/cub3d.dir/minilibx/font.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/minilibx/font.c.o: ../minilibx/font.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cub3d.dir/minilibx/font.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/minilibx/font.c.o   -c /Users/ssummers/CLionProjects/cub3d/minilibx/font.c
+CMakeFiles/cub3d.dir/opengl/font.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/opengl/font.c.o: ../opengl/font.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cub3d.dir/opengl/font.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/opengl/font.c.o   -c /Users/ssummers/CLionProjects/cub3d/opengl/font.c
 
-CMakeFiles/cub3d.dir/minilibx/font.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/minilibx/font.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/minilibx/font.c > CMakeFiles/cub3d.dir/minilibx/font.c.i
+CMakeFiles/cub3d.dir/opengl/font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/opengl/font.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/opengl/font.c > CMakeFiles/cub3d.dir/opengl/font.c.i
 
-CMakeFiles/cub3d.dir/minilibx/font.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/minilibx/font.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/minilibx/font.c -o CMakeFiles/cub3d.dir/minilibx/font.c.s
+CMakeFiles/cub3d.dir/opengl/font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/opengl/font.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/opengl/font.c -o CMakeFiles/cub3d.dir/opengl/font.c.s
 
-CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.o: ../minilibx/mlx_string_put.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.o   -c /Users/ssummers/CLionProjects/cub3d/minilibx/mlx_string_put.c
+CMakeFiles/cub3d.dir/SRCS/main.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/main.c.o: ../SRCS/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cub3d.dir/SRCS/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/main.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/main.c
 
-CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/minilibx/mlx_string_put.c > CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.i
+CMakeFiles/cub3d.dir/SRCS/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/main.c > CMakeFiles/cub3d.dir/SRCS/main.c.i
 
-CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/minilibx/mlx_string_put.c -o CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.s
+CMakeFiles/cub3d.dir/SRCS/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/main.c -o CMakeFiles/cub3d.dir/SRCS/main.c.s
 
-CMakeFiles/cub3d.dir/main.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cub3d.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/main.c.o   -c /Users/ssummers/CLionProjects/cub3d/main.c
+CMakeFiles/cub3d.dir/SRCS/parser_help.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/parser_help.c.o: ../SRCS/parser_help.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cub3d.dir/SRCS/parser_help.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/parser_help.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/parser_help.c
 
-CMakeFiles/cub3d.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/main.c > CMakeFiles/cub3d.dir/main.c.i
+CMakeFiles/cub3d.dir/SRCS/parser_help.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/parser_help.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/parser_help.c > CMakeFiles/cub3d.dir/SRCS/parser_help.c.i
 
-CMakeFiles/cub3d.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/main.c -o CMakeFiles/cub3d.dir/main.c.s
+CMakeFiles/cub3d.dir/SRCS/parser_help.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/parser_help.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/parser_help.c -o CMakeFiles/cub3d.dir/SRCS/parser_help.c.s
 
-CMakeFiles/cub3d.dir/parser_help.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/parser_help.c.o: ../parser_help.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cub3d.dir/parser_help.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/parser_help.c.o   -c /Users/ssummers/CLionProjects/cub3d/parser_help.c
+CMakeFiles/cub3d.dir/SRCS/help_func.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/help_func.c.o: ../SRCS/help_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cub3d.dir/SRCS/help_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/help_func.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/help_func.c
 
-CMakeFiles/cub3d.dir/parser_help.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/parser_help.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/parser_help.c > CMakeFiles/cub3d.dir/parser_help.c.i
+CMakeFiles/cub3d.dir/SRCS/help_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/help_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/help_func.c > CMakeFiles/cub3d.dir/SRCS/help_func.c.i
 
-CMakeFiles/cub3d.dir/parser_help.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/parser_help.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/parser_help.c -o CMakeFiles/cub3d.dir/parser_help.c.s
+CMakeFiles/cub3d.dir/SRCS/help_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/help_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/help_func.c -o CMakeFiles/cub3d.dir/SRCS/help_func.c.s
 
-CMakeFiles/cub3d.dir/help_func.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/help_func.c.o: ../help_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cub3d.dir/help_func.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/help_func.c.o   -c /Users/ssummers/CLionProjects/cub3d/help_func.c
+CMakeFiles/cub3d.dir/SRCS/init.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/init.c.o: ../SRCS/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/cub3d.dir/SRCS/init.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/init.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/init.c
 
-CMakeFiles/cub3d.dir/help_func.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/help_func.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/help_func.c > CMakeFiles/cub3d.dir/help_func.c.i
+CMakeFiles/cub3d.dir/SRCS/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/init.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/init.c > CMakeFiles/cub3d.dir/SRCS/init.c.i
 
-CMakeFiles/cub3d.dir/help_func.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/help_func.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/help_func.c -o CMakeFiles/cub3d.dir/help_func.c.s
+CMakeFiles/cub3d.dir/SRCS/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/init.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/init.c -o CMakeFiles/cub3d.dir/SRCS/init.c.s
 
-CMakeFiles/cub3d.dir/init.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/init.c.o: ../init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cub3d.dir/init.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/init.c.o   -c /Users/ssummers/CLionProjects/cub3d/init.c
+CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o: ../SRCS/parser_help2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/parser_help2.c
 
-CMakeFiles/cub3d.dir/init.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/init.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/init.c > CMakeFiles/cub3d.dir/init.c.i
+CMakeFiles/cub3d.dir/SRCS/parser_help2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/parser_help2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/parser_help2.c > CMakeFiles/cub3d.dir/SRCS/parser_help2.c.i
 
-CMakeFiles/cub3d.dir/init.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/init.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/init.c -o CMakeFiles/cub3d.dir/init.c.s
+CMakeFiles/cub3d.dir/SRCS/parser_help2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/parser_help2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/parser_help2.c -o CMakeFiles/cub3d.dir/SRCS/parser_help2.c.s
 
-CMakeFiles/cub3d.dir/parser_help2.c.o: CMakeFiles/cub3d.dir/flags.make
-CMakeFiles/cub3d.dir/parser_help2.c.o: ../parser_help2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cub3d.dir/parser_help2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/parser_help2.c.o   -c /Users/ssummers/CLionProjects/cub3d/parser_help2.c
+CMakeFiles/cub3d.dir/SRCS/checking.c.o: CMakeFiles/cub3d.dir/flags.make
+CMakeFiles/cub3d.dir/SRCS/checking.c.o: ../SRCS/checking.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/cub3d.dir/SRCS/checking.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/cub3d.dir/SRCS/checking.c.o   -c /Users/ssummers/CLionProjects/cub3d/SRCS/checking.c
 
-CMakeFiles/cub3d.dir/parser_help2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/parser_help2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/parser_help2.c > CMakeFiles/cub3d.dir/parser_help2.c.i
+CMakeFiles/cub3d.dir/SRCS/checking.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cub3d.dir/SRCS/checking.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ssummers/CLionProjects/cub3d/SRCS/checking.c > CMakeFiles/cub3d.dir/SRCS/checking.c.i
 
-CMakeFiles/cub3d.dir/parser_help2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/parser_help2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/parser_help2.c -o CMakeFiles/cub3d.dir/parser_help2.c.s
+CMakeFiles/cub3d.dir/SRCS/checking.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cub3d.dir/SRCS/checking.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ssummers/CLionProjects/cub3d/SRCS/checking.c -o CMakeFiles/cub3d.dir/SRCS/checking.c.s
 
 # Object files for target cub3d
 cub3d_OBJECTS = \
-"CMakeFiles/cub3d.dir/libft/ft_atoi.c.o" \
-"CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o" \
-"CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o" \
-"CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.o" \
-"CMakeFiles/cub3d.dir/libft/ft_isdigit.c.o" \
-"CMakeFiles/cub3d.dir/libft/ft_strncmp.c.o" \
-"CMakeFiles/cub3d.dir/libft/ft_isalpha.c.o" \
-"CMakeFiles/cub3d.dir/minilibx/font.c.o" \
-"CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.o" \
-"CMakeFiles/cub3d.dir/main.c.o" \
-"CMakeFiles/cub3d.dir/parser_help.c.o" \
-"CMakeFiles/cub3d.dir/help_func.c.o" \
-"CMakeFiles/cub3d.dir/init.c.o" \
-"CMakeFiles/cub3d.dir/parser_help2.c.o"
+"CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/get_next_line.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.o" \
+"CMakeFiles/cub3d.dir/opengl/font.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/main.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/parser_help.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/help_func.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/init.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o" \
+"CMakeFiles/cub3d.dir/SRCS/checking.c.o"
 
 # External object files for target cub3d
 cub3d_EXTERNAL_OBJECTS =
 
-cub3d: CMakeFiles/cub3d.dir/libft/ft_atoi.c.o
-cub3d: CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o
-cub3d: CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o
-cub3d: CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.o
-cub3d: CMakeFiles/cub3d.dir/libft/ft_isdigit.c.o
-cub3d: CMakeFiles/cub3d.dir/libft/ft_strncmp.c.o
-cub3d: CMakeFiles/cub3d.dir/libft/ft_isalpha.c.o
-cub3d: CMakeFiles/cub3d.dir/minilibx/font.c.o
-cub3d: CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.o
-cub3d: CMakeFiles/cub3d.dir/main.c.o
-cub3d: CMakeFiles/cub3d.dir/parser_help.c.o
-cub3d: CMakeFiles/cub3d.dir/help_func.c.o
-cub3d: CMakeFiles/cub3d.dir/init.c.o
-cub3d: CMakeFiles/cub3d.dir/parser_help2.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/get_next_line.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.o
+cub3d: CMakeFiles/cub3d.dir/opengl/font.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/main.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/parser_help.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/help_func.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/init.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o
+cub3d: CMakeFiles/cub3d.dir/SRCS/checking.c.o
 cub3d: CMakeFiles/cub3d.dir/build.make
 cub3d: CMakeFiles/cub3d.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable cub3d"

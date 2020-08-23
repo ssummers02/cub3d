@@ -1,31 +1,38 @@
 NAME = cub3d
-HEADERS = cub.h
-CFLAGS = -Wall -Werror -Wextra
+HEADERS = ./INCLUDES/cub.h\
+		./INCLUDES/get_next_line.h\
+		./INCLUDES/libft.h
+CFLAGS =
 
-SRC = main.c help_func.c\
-             init.c\
-             parser_help.c\
-             parser_help2.c
+SRC =  SRCS/ft_atoi.c\
+              SRCS/get_next_line.c\
+              SRCS/get_next_line_utils.c\
+              SRCS/ft_putstr_fd.c\
+              SRCS/ft_isdigit.c\
+              SRCS/ft_strncmp.c\
+              SRCS/ft_isalpha.c\
+              SRCS/main.c\
+              SRCS/parser_help.c SRCS/help_func.c SRCS/init.c SRCS/parser_help2.c SRCS/checking.c
+
 
 OBJ = $(patsubst %.c,%.o,$(SRC))
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
-		$(MAKE) -C libft all
-		$(MAKE) -C minilibx
-		gcc $(OBJ) ./libft/libft.a -lmlx -framework OpenGL -framework AppKit -o $(NAME)
+	$(MAKE) -C ./opengl
+	gcc $(OBJ) -lmlx -framework OpenGL -framework AppKit -o $(NAME)
 
 %.o: %.c $(HEADERS)
-		$(CC) -Imlx -c $< -o $@
+	$(CC) -Imlx -c $< -o $@
 
 clean:
-		rm -f $(OBJ)
-			$(MAKE) -C libft clean
+	rm -f $(OBJ)
 
 fclean:	clean
-		$(MAKE) -C libft fclean
-			rm -f $(NAME)
+	rm -f $(NAME)
+#	$(MAKE) -C ./minilibx clean
+
 
 re:		fclean all
 

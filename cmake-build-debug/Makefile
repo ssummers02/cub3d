@@ -123,383 +123,383 @@ cub3d/fast:
 	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/build
 .PHONY : cub3d/fast
 
-help_func.o: help_func.c.o
+SRCS/checking.o: SRCS/checking.c.o
 
-.PHONY : help_func.o
-
-# target to build an object file
-help_func.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/help_func.c.o
-.PHONY : help_func.c.o
-
-help_func.i: help_func.c.i
-
-.PHONY : help_func.i
-
-# target to preprocess a source file
-help_func.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/help_func.c.i
-.PHONY : help_func.c.i
-
-help_func.s: help_func.c.s
-
-.PHONY : help_func.s
-
-# target to generate assembly for a file
-help_func.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/help_func.c.s
-.PHONY : help_func.c.s
-
-init.o: init.c.o
-
-.PHONY : init.o
+.PHONY : SRCS/checking.o
 
 # target to build an object file
-init.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/init.c.o
-.PHONY : init.c.o
+SRCS/checking.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/checking.c.o
+.PHONY : SRCS/checking.c.o
 
-init.i: init.c.i
+SRCS/checking.i: SRCS/checking.c.i
 
-.PHONY : init.i
+.PHONY : SRCS/checking.i
 
 # target to preprocess a source file
-init.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/init.c.i
-.PHONY : init.c.i
+SRCS/checking.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/checking.c.i
+.PHONY : SRCS/checking.c.i
 
-init.s: init.c.s
+SRCS/checking.s: SRCS/checking.c.s
 
-.PHONY : init.s
+.PHONY : SRCS/checking.s
 
 # target to generate assembly for a file
-init.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/init.c.s
-.PHONY : init.c.s
+SRCS/checking.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/checking.c.s
+.PHONY : SRCS/checking.c.s
 
-libft/ft_atoi.o: libft/ft_atoi.c.o
+SRCS/ft_atoi.o: SRCS/ft_atoi.c.o
 
-.PHONY : libft/ft_atoi.o
+.PHONY : SRCS/ft_atoi.o
 
 # target to build an object file
-libft/ft_atoi.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_atoi.c.o
-.PHONY : libft/ft_atoi.c.o
+SRCS/ft_atoi.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.o
+.PHONY : SRCS/ft_atoi.c.o
 
-libft/ft_atoi.i: libft/ft_atoi.c.i
+SRCS/ft_atoi.i: SRCS/ft_atoi.c.i
 
-.PHONY : libft/ft_atoi.i
+.PHONY : SRCS/ft_atoi.i
 
 # target to preprocess a source file
-libft/ft_atoi.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_atoi.c.i
-.PHONY : libft/ft_atoi.c.i
+SRCS/ft_atoi.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.i
+.PHONY : SRCS/ft_atoi.c.i
 
-libft/ft_atoi.s: libft/ft_atoi.c.s
+SRCS/ft_atoi.s: SRCS/ft_atoi.c.s
 
-.PHONY : libft/ft_atoi.s
+.PHONY : SRCS/ft_atoi.s
 
 # target to generate assembly for a file
-libft/ft_atoi.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_atoi.c.s
-.PHONY : libft/ft_atoi.c.s
+SRCS/ft_atoi.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_atoi.c.s
+.PHONY : SRCS/ft_atoi.c.s
 
-libft/ft_isalpha.o: libft/ft_isalpha.c.o
+SRCS/ft_isalpha.o: SRCS/ft_isalpha.c.o
 
-.PHONY : libft/ft_isalpha.o
+.PHONY : SRCS/ft_isalpha.o
 
 # target to build an object file
-libft/ft_isalpha.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_isalpha.c.o
-.PHONY : libft/ft_isalpha.c.o
+SRCS/ft_isalpha.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.o
+.PHONY : SRCS/ft_isalpha.c.o
 
-libft/ft_isalpha.i: libft/ft_isalpha.c.i
+SRCS/ft_isalpha.i: SRCS/ft_isalpha.c.i
 
-.PHONY : libft/ft_isalpha.i
+.PHONY : SRCS/ft_isalpha.i
 
 # target to preprocess a source file
-libft/ft_isalpha.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_isalpha.c.i
-.PHONY : libft/ft_isalpha.c.i
+SRCS/ft_isalpha.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.i
+.PHONY : SRCS/ft_isalpha.c.i
 
-libft/ft_isalpha.s: libft/ft_isalpha.c.s
+SRCS/ft_isalpha.s: SRCS/ft_isalpha.c.s
 
-.PHONY : libft/ft_isalpha.s
+.PHONY : SRCS/ft_isalpha.s
 
 # target to generate assembly for a file
-libft/ft_isalpha.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_isalpha.c.s
-.PHONY : libft/ft_isalpha.c.s
+SRCS/ft_isalpha.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_isalpha.c.s
+.PHONY : SRCS/ft_isalpha.c.s
 
-libft/ft_isdigit.o: libft/ft_isdigit.c.o
+SRCS/ft_isdigit.o: SRCS/ft_isdigit.c.o
 
-.PHONY : libft/ft_isdigit.o
+.PHONY : SRCS/ft_isdigit.o
 
 # target to build an object file
-libft/ft_isdigit.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_isdigit.c.o
-.PHONY : libft/ft_isdigit.c.o
+SRCS/ft_isdigit.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.o
+.PHONY : SRCS/ft_isdigit.c.o
 
-libft/ft_isdigit.i: libft/ft_isdigit.c.i
+SRCS/ft_isdigit.i: SRCS/ft_isdigit.c.i
 
-.PHONY : libft/ft_isdigit.i
+.PHONY : SRCS/ft_isdigit.i
 
 # target to preprocess a source file
-libft/ft_isdigit.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_isdigit.c.i
-.PHONY : libft/ft_isdigit.c.i
+SRCS/ft_isdigit.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.i
+.PHONY : SRCS/ft_isdigit.c.i
 
-libft/ft_isdigit.s: libft/ft_isdigit.c.s
+SRCS/ft_isdigit.s: SRCS/ft_isdigit.c.s
 
-.PHONY : libft/ft_isdigit.s
+.PHONY : SRCS/ft_isdigit.s
 
 # target to generate assembly for a file
-libft/ft_isdigit.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_isdigit.c.s
-.PHONY : libft/ft_isdigit.c.s
+SRCS/ft_isdigit.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_isdigit.c.s
+.PHONY : SRCS/ft_isdigit.c.s
 
-libft/ft_putstr_fd.o: libft/ft_putstr_fd.c.o
+SRCS/ft_putstr_fd.o: SRCS/ft_putstr_fd.c.o
 
-.PHONY : libft/ft_putstr_fd.o
+.PHONY : SRCS/ft_putstr_fd.o
 
 # target to build an object file
-libft/ft_putstr_fd.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.o
-.PHONY : libft/ft_putstr_fd.c.o
+SRCS/ft_putstr_fd.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.o
+.PHONY : SRCS/ft_putstr_fd.c.o
 
-libft/ft_putstr_fd.i: libft/ft_putstr_fd.c.i
+SRCS/ft_putstr_fd.i: SRCS/ft_putstr_fd.c.i
 
-.PHONY : libft/ft_putstr_fd.i
+.PHONY : SRCS/ft_putstr_fd.i
 
 # target to preprocess a source file
-libft/ft_putstr_fd.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.i
-.PHONY : libft/ft_putstr_fd.c.i
+SRCS/ft_putstr_fd.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.i
+.PHONY : SRCS/ft_putstr_fd.c.i
 
-libft/ft_putstr_fd.s: libft/ft_putstr_fd.c.s
+SRCS/ft_putstr_fd.s: SRCS/ft_putstr_fd.c.s
 
-.PHONY : libft/ft_putstr_fd.s
+.PHONY : SRCS/ft_putstr_fd.s
 
 # target to generate assembly for a file
-libft/ft_putstr_fd.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_putstr_fd.c.s
-.PHONY : libft/ft_putstr_fd.c.s
+SRCS/ft_putstr_fd.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_putstr_fd.c.s
+.PHONY : SRCS/ft_putstr_fd.c.s
 
-libft/ft_strncmp.o: libft/ft_strncmp.c.o
+SRCS/ft_strncmp.o: SRCS/ft_strncmp.c.o
 
-.PHONY : libft/ft_strncmp.o
+.PHONY : SRCS/ft_strncmp.o
 
 # target to build an object file
-libft/ft_strncmp.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_strncmp.c.o
-.PHONY : libft/ft_strncmp.c.o
+SRCS/ft_strncmp.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.o
+.PHONY : SRCS/ft_strncmp.c.o
 
-libft/ft_strncmp.i: libft/ft_strncmp.c.i
+SRCS/ft_strncmp.i: SRCS/ft_strncmp.c.i
 
-.PHONY : libft/ft_strncmp.i
+.PHONY : SRCS/ft_strncmp.i
 
 # target to preprocess a source file
-libft/ft_strncmp.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_strncmp.c.i
-.PHONY : libft/ft_strncmp.c.i
+SRCS/ft_strncmp.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.i
+.PHONY : SRCS/ft_strncmp.c.i
 
-libft/ft_strncmp.s: libft/ft_strncmp.c.s
+SRCS/ft_strncmp.s: SRCS/ft_strncmp.c.s
 
-.PHONY : libft/ft_strncmp.s
+.PHONY : SRCS/ft_strncmp.s
 
 # target to generate assembly for a file
-libft/ft_strncmp.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/ft_strncmp.c.s
-.PHONY : libft/ft_strncmp.c.s
+SRCS/ft_strncmp.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/ft_strncmp.c.s
+.PHONY : SRCS/ft_strncmp.c.s
 
-main.o: main.c.o
+SRCS/get_next_line.o: SRCS/get_next_line.c.o
 
-.PHONY : main.o
+.PHONY : SRCS/get_next_line.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/main.c.o
-.PHONY : main.c.o
+SRCS/get_next_line.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/get_next_line.c.o
+.PHONY : SRCS/get_next_line.c.o
 
-main.i: main.c.i
+SRCS/get_next_line.i: SRCS/get_next_line.c.i
 
-.PHONY : main.i
+.PHONY : SRCS/get_next_line.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/main.c.i
-.PHONY : main.c.i
+SRCS/get_next_line.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/get_next_line.c.i
+.PHONY : SRCS/get_next_line.c.i
 
-main.s: main.c.s
+SRCS/get_next_line.s: SRCS/get_next_line.c.s
 
-.PHONY : main.s
+.PHONY : SRCS/get_next_line.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/main.c.s
-.PHONY : main.c.s
+SRCS/get_next_line.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/get_next_line.c.s
+.PHONY : SRCS/get_next_line.c.s
 
-minilibx/font.o: minilibx/font.c.o
+SRCS/get_next_line_utils.o: SRCS/get_next_line_utils.c.o
 
-.PHONY : minilibx/font.o
+.PHONY : SRCS/get_next_line_utils.o
 
 # target to build an object file
-minilibx/font.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/minilibx/font.c.o
-.PHONY : minilibx/font.c.o
+SRCS/get_next_line_utils.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.o
+.PHONY : SRCS/get_next_line_utils.c.o
 
-minilibx/font.i: minilibx/font.c.i
+SRCS/get_next_line_utils.i: SRCS/get_next_line_utils.c.i
 
-.PHONY : minilibx/font.i
+.PHONY : SRCS/get_next_line_utils.i
 
 # target to preprocess a source file
-minilibx/font.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/minilibx/font.c.i
-.PHONY : minilibx/font.c.i
+SRCS/get_next_line_utils.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.i
+.PHONY : SRCS/get_next_line_utils.c.i
 
-minilibx/font.s: minilibx/font.c.s
+SRCS/get_next_line_utils.s: SRCS/get_next_line_utils.c.s
 
-.PHONY : minilibx/font.s
+.PHONY : SRCS/get_next_line_utils.s
 
 # target to generate assembly for a file
-minilibx/font.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/minilibx/font.c.s
-.PHONY : minilibx/font.c.s
+SRCS/get_next_line_utils.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/get_next_line_utils.c.s
+.PHONY : SRCS/get_next_line_utils.c.s
 
-minilibx/mlx_string_put.o: minilibx/mlx_string_put.c.o
+SRCS/help_func.o: SRCS/help_func.c.o
 
-.PHONY : minilibx/mlx_string_put.o
+.PHONY : SRCS/help_func.o
 
 # target to build an object file
-minilibx/mlx_string_put.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.o
-.PHONY : minilibx/mlx_string_put.c.o
+SRCS/help_func.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/help_func.c.o
+.PHONY : SRCS/help_func.c.o
 
-minilibx/mlx_string_put.i: minilibx/mlx_string_put.c.i
+SRCS/help_func.i: SRCS/help_func.c.i
 
-.PHONY : minilibx/mlx_string_put.i
+.PHONY : SRCS/help_func.i
 
 # target to preprocess a source file
-minilibx/mlx_string_put.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.i
-.PHONY : minilibx/mlx_string_put.c.i
+SRCS/help_func.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/help_func.c.i
+.PHONY : SRCS/help_func.c.i
 
-minilibx/mlx_string_put.s: minilibx/mlx_string_put.c.s
+SRCS/help_func.s: SRCS/help_func.c.s
 
-.PHONY : minilibx/mlx_string_put.s
+.PHONY : SRCS/help_func.s
 
 # target to generate assembly for a file
-minilibx/mlx_string_put.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/minilibx/mlx_string_put.c.s
-.PHONY : minilibx/mlx_string_put.c.s
+SRCS/help_func.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/help_func.c.s
+.PHONY : SRCS/help_func.c.s
 
-parser_help.o: parser_help.c.o
+SRCS/init.o: SRCS/init.c.o
 
-.PHONY : parser_help.o
+.PHONY : SRCS/init.o
 
 # target to build an object file
-parser_help.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/parser_help.c.o
-.PHONY : parser_help.c.o
+SRCS/init.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/init.c.o
+.PHONY : SRCS/init.c.o
 
-parser_help.i: parser_help.c.i
+SRCS/init.i: SRCS/init.c.i
 
-.PHONY : parser_help.i
+.PHONY : SRCS/init.i
 
 # target to preprocess a source file
-parser_help.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/parser_help.c.i
-.PHONY : parser_help.c.i
+SRCS/init.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/init.c.i
+.PHONY : SRCS/init.c.i
 
-parser_help.s: parser_help.c.s
+SRCS/init.s: SRCS/init.c.s
 
-.PHONY : parser_help.s
+.PHONY : SRCS/init.s
 
 # target to generate assembly for a file
-parser_help.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/parser_help.c.s
-.PHONY : parser_help.c.s
+SRCS/init.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/init.c.s
+.PHONY : SRCS/init.c.s
 
-parser_help2.o: parser_help2.c.o
+SRCS/main.o: SRCS/main.c.o
 
-.PHONY : parser_help2.o
+.PHONY : SRCS/main.o
 
 # target to build an object file
-parser_help2.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/parser_help2.c.o
-.PHONY : parser_help2.c.o
+SRCS/main.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/main.c.o
+.PHONY : SRCS/main.c.o
 
-parser_help2.i: parser_help2.c.i
+SRCS/main.i: SRCS/main.c.i
 
-.PHONY : parser_help2.i
+.PHONY : SRCS/main.i
 
 # target to preprocess a source file
-parser_help2.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/parser_help2.c.i
-.PHONY : parser_help2.c.i
+SRCS/main.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/main.c.i
+.PHONY : SRCS/main.c.i
 
-parser_help2.s: parser_help2.c.s
+SRCS/main.s: SRCS/main.c.s
 
-.PHONY : parser_help2.s
+.PHONY : SRCS/main.s
 
 # target to generate assembly for a file
-parser_help2.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/parser_help2.c.s
-.PHONY : parser_help2.c.s
+SRCS/main.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/main.c.s
+.PHONY : SRCS/main.c.s
 
-source/get_next_line/get_next_line.o: source/get_next_line/get_next_line.c.o
+SRCS/parser_help.o: SRCS/parser_help.c.o
 
-.PHONY : source/get_next_line/get_next_line.o
+.PHONY : SRCS/parser_help.o
 
 # target to build an object file
-source/get_next_line/get_next_line.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.o
-.PHONY : source/get_next_line/get_next_line.c.o
+SRCS/parser_help.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help.c.o
+.PHONY : SRCS/parser_help.c.o
 
-source/get_next_line/get_next_line.i: source/get_next_line/get_next_line.c.i
+SRCS/parser_help.i: SRCS/parser_help.c.i
 
-.PHONY : source/get_next_line/get_next_line.i
+.PHONY : SRCS/parser_help.i
 
 # target to preprocess a source file
-source/get_next_line/get_next_line.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.i
-.PHONY : source/get_next_line/get_next_line.c.i
+SRCS/parser_help.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help.c.i
+.PHONY : SRCS/parser_help.c.i
 
-source/get_next_line/get_next_line.s: source/get_next_line/get_next_line.c.s
+SRCS/parser_help.s: SRCS/parser_help.c.s
 
-.PHONY : source/get_next_line/get_next_line.s
+.PHONY : SRCS/parser_help.s
 
 # target to generate assembly for a file
-source/get_next_line/get_next_line.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/source/get_next_line/get_next_line.c.s
-.PHONY : source/get_next_line/get_next_line.c.s
+SRCS/parser_help.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help.c.s
+.PHONY : SRCS/parser_help.c.s
 
-source/get_next_line/get_next_line_utils.o: source/get_next_line/get_next_line_utils.c.o
+SRCS/parser_help2.o: SRCS/parser_help2.c.o
 
-.PHONY : source/get_next_line/get_next_line_utils.o
+.PHONY : SRCS/parser_help2.o
 
 # target to build an object file
-source/get_next_line/get_next_line_utils.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.o
-.PHONY : source/get_next_line/get_next_line_utils.c.o
+SRCS/parser_help2.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o
+.PHONY : SRCS/parser_help2.c.o
 
-source/get_next_line/get_next_line_utils.i: source/get_next_line/get_next_line_utils.c.i
+SRCS/parser_help2.i: SRCS/parser_help2.c.i
 
-.PHONY : source/get_next_line/get_next_line_utils.i
+.PHONY : SRCS/parser_help2.i
 
 # target to preprocess a source file
-source/get_next_line/get_next_line_utils.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.i
-.PHONY : source/get_next_line/get_next_line_utils.c.i
+SRCS/parser_help2.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help2.c.i
+.PHONY : SRCS/parser_help2.c.i
 
-source/get_next_line/get_next_line_utils.s: source/get_next_line/get_next_line_utils.c.s
+SRCS/parser_help2.s: SRCS/parser_help2.c.s
 
-.PHONY : source/get_next_line/get_next_line_utils.s
+.PHONY : SRCS/parser_help2.s
 
 # target to generate assembly for a file
-source/get_next_line/get_next_line_utils.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/source/get_next_line/get_next_line_utils.c.s
-.PHONY : source/get_next_line/get_next_line_utils.c.s
+SRCS/parser_help2.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help2.c.s
+.PHONY : SRCS/parser_help2.c.s
+
+opengl/font.o: opengl/font.c.o
+
+.PHONY : opengl/font.o
+
+# target to build an object file
+opengl/font.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/opengl/font.c.o
+.PHONY : opengl/font.c.o
+
+opengl/font.i: opengl/font.c.i
+
+.PHONY : opengl/font.i
+
+# target to preprocess a source file
+opengl/font.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/opengl/font.c.i
+.PHONY : opengl/font.c.i
+
+opengl/font.s: opengl/font.c.s
+
+.PHONY : opengl/font.s
+
+# target to generate assembly for a file
+opengl/font.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/opengl/font.c.s
+.PHONY : opengl/font.c.s
 
 # Help Target
 help:
@@ -510,48 +510,48 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cub3d"
-	@echo "... help_func.o"
-	@echo "... help_func.i"
-	@echo "... help_func.s"
-	@echo "... init.o"
-	@echo "... init.i"
-	@echo "... init.s"
-	@echo "... libft/ft_atoi.o"
-	@echo "... libft/ft_atoi.i"
-	@echo "... libft/ft_atoi.s"
-	@echo "... libft/ft_isalpha.o"
-	@echo "... libft/ft_isalpha.i"
-	@echo "... libft/ft_isalpha.s"
-	@echo "... libft/ft_isdigit.o"
-	@echo "... libft/ft_isdigit.i"
-	@echo "... libft/ft_isdigit.s"
-	@echo "... libft/ft_putstr_fd.o"
-	@echo "... libft/ft_putstr_fd.i"
-	@echo "... libft/ft_putstr_fd.s"
-	@echo "... libft/ft_strncmp.o"
-	@echo "... libft/ft_strncmp.i"
-	@echo "... libft/ft_strncmp.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... minilibx/font.o"
-	@echo "... minilibx/font.i"
-	@echo "... minilibx/font.s"
-	@echo "... minilibx/mlx_string_put.o"
-	@echo "... minilibx/mlx_string_put.i"
-	@echo "... minilibx/mlx_string_put.s"
-	@echo "... parser_help.o"
-	@echo "... parser_help.i"
-	@echo "... parser_help.s"
-	@echo "... parser_help2.o"
-	@echo "... parser_help2.i"
-	@echo "... parser_help2.s"
-	@echo "... source/get_next_line/get_next_line.o"
-	@echo "... source/get_next_line/get_next_line.i"
-	@echo "... source/get_next_line/get_next_line.s"
-	@echo "... source/get_next_line/get_next_line_utils.o"
-	@echo "... source/get_next_line/get_next_line_utils.i"
-	@echo "... source/get_next_line/get_next_line_utils.s"
+	@echo "... SRCS/checking.o"
+	@echo "... SRCS/checking.i"
+	@echo "... SRCS/checking.s"
+	@echo "... SRCS/ft_atoi.o"
+	@echo "... SRCS/ft_atoi.i"
+	@echo "... SRCS/ft_atoi.s"
+	@echo "... SRCS/ft_isalpha.o"
+	@echo "... SRCS/ft_isalpha.i"
+	@echo "... SRCS/ft_isalpha.s"
+	@echo "... SRCS/ft_isdigit.o"
+	@echo "... SRCS/ft_isdigit.i"
+	@echo "... SRCS/ft_isdigit.s"
+	@echo "... SRCS/ft_putstr_fd.o"
+	@echo "... SRCS/ft_putstr_fd.i"
+	@echo "... SRCS/ft_putstr_fd.s"
+	@echo "... SRCS/ft_strncmp.o"
+	@echo "... SRCS/ft_strncmp.i"
+	@echo "... SRCS/ft_strncmp.s"
+	@echo "... SRCS/get_next_line.o"
+	@echo "... SRCS/get_next_line.i"
+	@echo "... SRCS/get_next_line.s"
+	@echo "... SRCS/get_next_line_utils.o"
+	@echo "... SRCS/get_next_line_utils.i"
+	@echo "... SRCS/get_next_line_utils.s"
+	@echo "... SRCS/help_func.o"
+	@echo "... SRCS/help_func.i"
+	@echo "... SRCS/help_func.s"
+	@echo "... SRCS/init.o"
+	@echo "... SRCS/init.i"
+	@echo "... SRCS/init.s"
+	@echo "... SRCS/main.o"
+	@echo "... SRCS/main.i"
+	@echo "... SRCS/main.s"
+	@echo "... SRCS/parser_help.o"
+	@echo "... SRCS/parser_help.i"
+	@echo "... SRCS/parser_help.s"
+	@echo "... SRCS/parser_help2.o"
+	@echo "... SRCS/parser_help2.i"
+	@echo "... SRCS/parser_help2.s"
+	@echo "... opengl/font.o"
+	@echo "... opengl/font.i"
+	@echo "... opengl/font.s"
 .PHONY : help
 
 
