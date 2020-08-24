@@ -11,6 +11,7 @@
 #include "mlx.h"
 #include <math.h>
 
+#define FOV 1.15192
 
 typedef struct s_color
 {

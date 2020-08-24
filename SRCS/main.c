@@ -58,7 +58,7 @@ void mlx_put_maps(t_data img, t_parse *parse)
 				mlx_put_maps_pixel(&img, j, i, 0xFF4500, parse);
 			else if (parse->maps[i][j] == '1')
 				mlx_put_maps_pixel(&img, j, i, 0x8A2BE2, parse);
-			else if(parse->maps[i][j] == '0')
+			else if (parse->maps[i][j] == '0')
 				mlx_put_maps_pixel(&img, j, i, 0x8A8A8A, parse);
 			else
 				mlx_put_maps_pixel(&img, j, i, 0xFFFFFF, parse);
@@ -126,7 +126,6 @@ int main(int argc, char **argv)
 		error("Error");
 
 
-
 	mlx = mlx_init();
 	mlx_win = mlx_new_window(mlx, parse->x, parse->y, "cub3D");
 	img.img = mlx_new_image(mlx, parse->x, parse->y);
@@ -134,48 +133,39 @@ int main(int argc, char **argv)
 								 &img.endian);
 	mlx_put_sky_land(img, parse);
 
+
+	int i;
+	double player_a = 1.23;// направление
+	i = 0;
+	float dis = 0;
+	printf("%d\t%d", parse->x, parse->y);
+	while (i < parse->x)
+	{
+		float angle = player_a - FOV / 2 + FOV * i / (float) parse->x;
+		while (dis < 20)
+		{
+			float x = parse->player->x + dis * cosf(angle);
+			float y = parse->player->y + dis * sinf(angle);
+			if (parse->maps[(int) y][(int) x] == '1') break;
+			dis += 0.01;
+		}
+		dis *= cos(angle - player_a);
+		int nCeiling = (float) ((parse->y / 2.0) - parse->y / (float) dis);
+		//ft_putnbr_fd(nCeiling,1);
+		if (nCeiling > parse->y || nCeiling < 0)
+			nCeiling = 0;
+		int nFloor = parse->y - nCeiling;
+
+		while (nCeiling < nFloor)
+		{
+			my_mlx_pixel_put(&img, i, nCeiling, 0x00FF00);
+			nCeiling++;
+		}
+		i++;
+	}
 	mlx_put_maps(img, parse);
 	mlx_put_image_to_window(mlx, mlx_win, img.img, 0, 0);
 	mlx_loop(mlx);
 
-	/*float player_x = parse->player->x; // player x position
-	float player_y = parse->player->y;// player y position
-	float player_a = 1.523; // player view direction
-	const double fov = M_PI / 3.; // field of view
-	const size_t win_w = (const size_t) parse->x;
-	const size_t win_h = (const size_t) parse->y;
-	const size_t map_w = parse->map->x; // map width
-	const size_t map_h = parse->map->y;; // map height
-	const size_t rect_w = win_w/map_w;
-	const size_t rect_h = win_h/map_h;
-	for (float t = 0; t < 20; t += .05)
-	{
-		float cx = player_x + t * cos(player_a);
-		float cy = player_y + t * sin(player_a);
-		if (parse->maps[(int) (cx)] [(int) (cy) * map_w] != ' ')
-			break;
-		for (size_t i = 0; i < win_w; i++)
-		{ // draw the visibility cone
-			float angle = player_a - fov / 2 + fov * i /(win_w);
-
-			size_t pix_x = cx * rect_w;
-			size_t pix_y = cy * rect_h;
-			ml[pix_x + pix_y * win_w] = pack_color(255, 255, 255);
-			for (float t = 0; t < 20; t += .05)
-			{
-				float cx = player_x + t * cos(angle);
-				float cy = player_y + t * sin(angle);
-				if (map[int(cx)
-				+
-				int(cy)
-				*map_w]!=' ') break;
-
-				size_t pix_x = cx * rect_w;
-				size_t pix_y = cy * rect_h;
-				framebuffer[pix_x + pix_y * win_w] = pack_color(255, 255, 255);
-			}
-		}
-
-*/
 	return 1;
 }
