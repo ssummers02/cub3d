@@ -112,7 +112,7 @@ int parser_help_no(char *ln, t_parse *parse)
 			ln++;
 		}
 		if (!(parse->NO = malloc(sizeof(char) * parse->temp)))
-			return (-1);
+			error("Cannot allocate memory");
 		parse->NO = ft_strcpy(parse->NO, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;
@@ -141,7 +141,7 @@ int parser_help_so(char *ln, t_parse *parse)
 			ln++;
 		}
 		if (!(parse->SO = malloc(sizeof(char) * parse->temp)))
-			return (-1);
+			error("Cannot allocate memory");
 		parse->SO = ft_strcpy(parse->SO, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;

@@ -29,10 +29,10 @@ char *ft_strcpy_space(char *dst, const char *src, size_t len)
 
 void checkmap(char *ln, t_parse *parse)
 {
-	if (ft_strlen(ln) == 0 && parse->map->y != 0 && parse->map->x != 0)
+	if (ft_strlen(ln) == 0 && parse->maps_y != 0 && parse->maps_x != 0)
 		error("Not found maps");
 	if (ft_strlen(ln) != 0)
-		parse->map->y++;
-	if (ft_strlen(ln) > parse->map->x)
-		parse->map->x = ft_strlen(ln);
+		parse->	maps_y++;
+	if (ft_strlen(ln) >parse-> maps_x)
+		parse->maps_x = ft_strlen(ln);
 }

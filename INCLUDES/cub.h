@@ -1,7 +1,3 @@
-//
-// Created by Stoops Summers on 8/19/20.
-//
-
 #ifndef CUB3D_CUB_H
 #define CUB3D_CUB_H
 
@@ -39,9 +35,10 @@ typedef struct s_parse
 	t_color *floor;
 	t_color *ceilling;
 	int temp;
-	t_map *map;
+	int maps_y;
+	int maps_x;
 	char **maps;
-	t_map *player
+	t_map *player;
 
 } t_parse;
 

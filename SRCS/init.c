@@ -15,7 +15,10 @@ t_parse *init_parse(t_parse *parse)
 	parse->ceilling->r = -1;
 	parse->ceilling->g = -1;
 	parse->ceilling->b = -1;
-	parse->map->x = 0;
-	parse->map->y = 0;
+	parse->	maps_x = 0;
+	parse->	maps_y = 0;
+	parse->player->x=0;
+	parse->player->y=0;
+
 	return (parse);
 }

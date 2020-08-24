@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD 99)
 include_directories(SRCS)
 include_directories(libft)
 include_directories(opengl)
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -L /Users/ssummers/CLionProjects/cub3d/opengl/ -lmlx -framework OpenGL -framework AppKit -O3")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -L /Users/ssummers/CLionProjects/cub3d/opengl/ -lmlx -framework OpenGL -framework AppKit")
 
 set(HEADER_FILES
         INCLUDES/get_next_line.h

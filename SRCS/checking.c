@@ -1,4 +1,5 @@
 #include "../INCLUDES/cub.h"
+
 void verification_arg(t_parse *parse)
 {
 	if (parse->floor->r < 0 || parse->floor->r > 255 ||
@@ -9,8 +10,7 @@ void verification_arg(t_parse *parse)
 		parse->ceilling->b < 0 || parse->ceilling->b > 255)
 		error("Incorrect color");
 
-	if (parse->x <= 0 || parse->y <= 0 ||
-		parse->map->x == 0 || parse->map->y == 0)
+	if (parse->x <= 0 || parse->y <= 0 ||parse-> maps_x == 0 ||parse-> maps_y == 0)
 		error("Incorrect value maps or resolution");
 	/*if (open(parse->NO, O_RDONLY) == -1 || open(parse->WE, O_RDONLY) == -1 ||
 		open(parse->SO, O_RDONLY) == -1 || open(parse->EA, O_RDONLY) == -1 ||
@@ -45,14 +45,15 @@ void verification_map(t_parse *parse)
 
 	i = 0;
 	flag = 0;
-	while (i < parse->map->y)
+	while (i < parse->maps_y)
 	{
 		j = 0;
 		printf("%s\n", parse->maps[i]);
-		while (j < parse->map->x)
+		while (j < parse->maps_x)
 		{
 			if (parse->maps[i][j] == 'W' || parse->maps[i][j] == 'S' ||
-				parse->maps[i][j] == 'E' || parse->maps[i][j] == 'N'){
+				parse->maps[i][j] == 'E' || parse->maps[i][j] == 'N')
+			{
 				flag++;
 				parse->player->x = j;
 				parse->player->y = i;
@@ -60,8 +61,8 @@ void verification_map(t_parse *parse)
 			}
 			if (parse->maps[i][j] != '1' && parse->maps[i][j] != ' ')
 			{
-				if (!(i == 0 || j == 0 || j == parse->map->x - 1 ||
-					  i == parse->map->y - 1) && parse->maps[i][j] == '1')
+				if (!(i == 0 || j == 0 || j == parse->maps_x - 1 ||
+					  i == parse->maps_y - 1) && parse->maps[i][j] == '1')
 					error("Error maps");
 				ver(parse, i, j);
 			}
@@ -76,9 +77,9 @@ void verification_map(t_parse *parse)
 
 void check_name_file(char *string)
 {
-	if (string[ft_strlen(string)-1] != 'b' ||
+	if (string[ft_strlen(string) - 1] != 'b' ||
 		string[ft_strlen(string) - 2] != 'u' ||
 		string[ft_strlen(string) - 3] != 'c' ||
-		string[ft_strlen(string) - 4] != '.' )
+		string[ft_strlen(string) - 4] != '.')
 		error("Invalid .cub");
 }

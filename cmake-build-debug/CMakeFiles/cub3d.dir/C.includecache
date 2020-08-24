@@ -42,29 +42,7 @@ stdlib.h
 unistd.h
 -
 
-/Users/ssummers/CLionProjects/cub3d/SRCS/checking.c
-../INCLUDES/cub.h
-/Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h
-
-/Users/ssummers/CLionProjects/cub3d/SRCS/help_func.c
-../INCLUDES/cub.h
-/Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h
-
-/Users/ssummers/CLionProjects/cub3d/SRCS/init.c
-../INCLUDES/cub.h
-/Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h
-
 /Users/ssummers/CLionProjects/cub3d/SRCS/main.c
-../INCLUDES/cub.h
-/Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h
-mlx.h
-/Users/ssummers/CLionProjects/cub3d/SRCS/mlx.h
-
-/Users/ssummers/CLionProjects/cub3d/SRCS/parser_help.c
-../INCLUDES/cub.h
-/Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h
-
-/Users/ssummers/CLionProjects/cub3d/SRCS/parser_help2.c
 ../INCLUDES/cub.h
 /Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h
 

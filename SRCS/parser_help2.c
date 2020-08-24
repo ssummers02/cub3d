@@ -18,7 +18,8 @@ int parser_help_we(char *ln, t_parse *parse)
 			parse->temp++;
 			ln++;
 		}
-		parse->WE = malloc(sizeof(char) * parse->temp+1);
+		if (!(parse->WE = malloc(sizeof(char) * parse->temp)))
+			error("Cannot allocate memory");
 		parse->WE = ft_strcpy(parse->WE, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;
@@ -46,7 +47,8 @@ int parser_help_ea(char *ln, t_parse *parse)
 			parse->temp++;
 			ln++;
 		}
-		parse->EA = malloc(sizeof(char) * parse->temp+1);
+		if (!(parse->EA = malloc(sizeof(char) * parse->temp)))
+			error("Cannot allocate memory");
 		parse->EA = ft_strcpy(parse->EA, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;
@@ -78,7 +80,8 @@ int parser_help_s(char *ln, t_parse *parse)
 				parse->temp++;
 				ln++;
 			}
-			parse->S = malloc(sizeof(char) * parse->temp+1);
+			if (!(parse->S = malloc(sizeof(char) * parse->temp)))
+				error("Cannot allocate memory");
 			parse->S = ft_strcpy(parse->S, temp);
 			while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 ||
 				   *ln == ' ')
@@ -141,9 +144,9 @@ int parser(t_parse *parse, char **argv)
 	free(ln);
 	close(fd);
 	fd = open(argv[1], O_RDONLY);
-	if (!(parse->maps = (char **) malloc(sizeof(char) * parse->map->y)))
+	if (!(parse->maps = (char **) malloc(sizeof(char) * parse->maps_y)))
 		exit(-1);
-	check -= parse->map->y;
+	check -= parse->maps_y;
 	i = 0;
 	while ((get_next_line(fd, &ln)) > 0)
 	{
@@ -152,10 +155,9 @@ int parser(t_parse *parse, char **argv)
 			check--;
 		} else
 		{
-			if (!(parse->maps[i] = (char *) malloc(
-					parse->map->x * sizeof(char))))
+			if (!(parse->maps[i] = (char *) malloc(parse->maps_x * sizeof(char))))
 				exit(-1);
-			ft_strcpy_space(parse->maps[i], ln, parse->map->x);
+			ft_strcpy_space(parse->maps[i], ln, parse->maps_x);
 			i++;
 		}
 
@@ -163,7 +165,6 @@ int parser(t_parse *parse, char **argv)
 	free(ln);
 	close(fd);
 	verification_arg(parse);
-	printf("%d\t%d\t%d", parse->map->x, parse->map->y, check);
-
+	printf("%d\t%d", parse->maps_x, parse->maps_y);
 	return 0;
 }
