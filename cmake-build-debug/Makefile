@@ -474,6 +474,33 @@ SRCS/parser_help2.c.s:
 	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help2.c.s
 .PHONY : SRCS/parser_help2.c.s
 
+libft/my_put_images.o: libft/my_put_images.c.o
+
+.PHONY : libft/my_put_images.o
+
+# target to build an object file
+libft/my_put_images.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/my_put_images.c.o
+.PHONY : libft/my_put_images.c.o
+
+libft/my_put_images.i: libft/my_put_images.c.i
+
+.PHONY : libft/my_put_images.i
+
+# target to preprocess a source file
+libft/my_put_images.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/my_put_images.c.i
+.PHONY : libft/my_put_images.c.i
+
+libft/my_put_images.s: libft/my_put_images.c.s
+
+.PHONY : libft/my_put_images.s
+
+# target to generate assembly for a file
+libft/my_put_images.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/my_put_images.c.s
+.PHONY : libft/my_put_images.c.s
+
 opengl/font.o: opengl/font.c.o
 
 .PHONY : opengl/font.o
@@ -549,6 +576,9 @@ help:
 	@echo "... SRCS/parser_help2.o"
 	@echo "... SRCS/parser_help2.i"
 	@echo "... SRCS/parser_help2.s"
+	@echo "... libft/my_put_images.o"
+	@echo "... libft/my_put_images.i"
+	@echo "... libft/my_put_images.s"
 	@echo "... opengl/font.o"
 	@echo "... opengl/font.i"
 	@echo "... opengl/font.s"

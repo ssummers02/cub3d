@@ -13,6 +13,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cub3d.dir/SRCS/init.c.o"
   "CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o"
   "CMakeFiles/cub3d.dir/SRCS/checking.c.o"
+  "CMakeFiles/cub3d.dir/libft/my_put_images.c.o"
   "cub3d.pdb"
   "cub3d"
 )
