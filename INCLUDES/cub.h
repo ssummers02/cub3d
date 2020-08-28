@@ -40,8 +40,11 @@ typedef struct s_parse
 	int maps_x;
 	char **maps;
 	t_map *player;
+	double player_a;
 
 } t_parse;
+
+void initplayers(t_parse *parse);
 
 void error(char *c);
 

@@ -126,13 +126,13 @@
 		<Unit filename="/Users/ssummers/CLionProjects/cub3d/SRCS/main.c">
 			<Option target="cub3d"/>
 		</Unit>
+		<Unit filename="/Users/ssummers/CLionProjects/cub3d/SRCS/my_put_images.c">
+			<Option target="cub3d"/>
+		</Unit>
 		<Unit filename="/Users/ssummers/CLionProjects/cub3d/SRCS/parser_help.c">
 			<Option target="cub3d"/>
 		</Unit>
 		<Unit filename="/Users/ssummers/CLionProjects/cub3d/SRCS/parser_help2.c">
-			<Option target="cub3d"/>
-		</Unit>
-		<Unit filename="/Users/ssummers/CLionProjects/cub3d/libft/my_put_images.c">
 			<Option target="cub3d"/>
 		</Unit>
 		<Unit filename="/Users/ssummers/CLionProjects/cub3d/opengl/font.c">

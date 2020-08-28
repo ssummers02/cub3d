@@ -54,9 +54,9 @@ void verification_map(t_parse *parse)
 			if (parse->maps[i][j] == 'W' || parse->maps[i][j] == 'S' ||
 				parse->maps[i][j] == 'E' || parse->maps[i][j] == 'N')
 			{
-				flag++;
 				parse->player->x = j;
 				parse->player->y = i;
+				flag++;
 
 			}
 			if (parse->maps[i][j] != '1' && parse->maps[i][j] != ' ')

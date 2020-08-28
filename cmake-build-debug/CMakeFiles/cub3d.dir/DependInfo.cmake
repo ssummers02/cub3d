@@ -15,9 +15,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ssummers/CLionProjects/cub3d/SRCS/help_func.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/SRCS/help_func.c.o"
   "/Users/ssummers/CLionProjects/cub3d/SRCS/init.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/SRCS/init.c.o"
   "/Users/ssummers/CLionProjects/cub3d/SRCS/main.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/SRCS/main.c.o"
+  "/Users/ssummers/CLionProjects/cub3d/SRCS/my_put_images.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/SRCS/my_put_images.c.o"
   "/Users/ssummers/CLionProjects/cub3d/SRCS/parser_help.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/SRCS/parser_help.c.o"
   "/Users/ssummers/CLionProjects/cub3d/SRCS/parser_help2.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/SRCS/parser_help2.c.o"
-  "/Users/ssummers/CLionProjects/cub3d/libft/my_put_images.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/libft/my_put_images.c.o"
   "/Users/ssummers/CLionProjects/cub3d/opengl/font.c" "/Users/ssummers/CLionProjects/cub3d/cmake-build-debug/CMakeFiles/cub3d.dir/opengl/font.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

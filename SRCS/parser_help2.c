@@ -165,6 +165,7 @@ int parser(t_parse *parse, char **argv)
 	free(ln);
 	close(fd);
 	verification_arg(parse);
+	initplayers(parse);
 	printf("%d\t%d", parse->maps_x, parse->maps_y);
 	return 0;
 }

@@ -420,6 +420,33 @@ SRCS/main.c.s:
 	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/main.c.s
 .PHONY : SRCS/main.c.s
 
+SRCS/my_put_images.o: SRCS/my_put_images.c.o
+
+.PHONY : SRCS/my_put_images.o
+
+# target to build an object file
+SRCS/my_put_images.c.o:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/my_put_images.c.o
+.PHONY : SRCS/my_put_images.c.o
+
+SRCS/my_put_images.i: SRCS/my_put_images.c.i
+
+.PHONY : SRCS/my_put_images.i
+
+# target to preprocess a source file
+SRCS/my_put_images.c.i:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/my_put_images.c.i
+.PHONY : SRCS/my_put_images.c.i
+
+SRCS/my_put_images.s: SRCS/my_put_images.c.s
+
+.PHONY : SRCS/my_put_images.s
+
+# target to generate assembly for a file
+SRCS/my_put_images.c.s:
+	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/my_put_images.c.s
+.PHONY : SRCS/my_put_images.c.s
+
 SRCS/parser_help.o: SRCS/parser_help.c.o
 
 .PHONY : SRCS/parser_help.o
@@ -473,33 +500,6 @@ SRCS/parser_help2.s: SRCS/parser_help2.c.s
 SRCS/parser_help2.c.s:
 	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/SRCS/parser_help2.c.s
 .PHONY : SRCS/parser_help2.c.s
-
-libft/my_put_images.o: libft/my_put_images.c.o
-
-.PHONY : libft/my_put_images.o
-
-# target to build an object file
-libft/my_put_images.c.o:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/my_put_images.c.o
-.PHONY : libft/my_put_images.c.o
-
-libft/my_put_images.i: libft/my_put_images.c.i
-
-.PHONY : libft/my_put_images.i
-
-# target to preprocess a source file
-libft/my_put_images.c.i:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/my_put_images.c.i
-.PHONY : libft/my_put_images.c.i
-
-libft/my_put_images.s: libft/my_put_images.c.s
-
-.PHONY : libft/my_put_images.s
-
-# target to generate assembly for a file
-libft/my_put_images.c.s:
-	$(MAKE) -f CMakeFiles/cub3d.dir/build.make CMakeFiles/cub3d.dir/libft/my_put_images.c.s
-.PHONY : libft/my_put_images.c.s
 
 opengl/font.o: opengl/font.c.o
 
@@ -570,15 +570,15 @@ help:
 	@echo "... SRCS/main.o"
 	@echo "... SRCS/main.i"
 	@echo "... SRCS/main.s"
+	@echo "... SRCS/my_put_images.o"
+	@echo "... SRCS/my_put_images.i"
+	@echo "... SRCS/my_put_images.s"
 	@echo "... SRCS/parser_help.o"
 	@echo "... SRCS/parser_help.i"
 	@echo "... SRCS/parser_help.s"
 	@echo "... SRCS/parser_help2.o"
 	@echo "... SRCS/parser_help2.i"
 	@echo "... SRCS/parser_help2.s"
-	@echo "... libft/my_put_images.o"
-	@echo "... libft/my_put_images.i"
-	@echo "... libft/my_put_images.s"
 	@echo "... opengl/font.o"
 	@echo "... opengl/font.i"
 	@echo "... opengl/font.s"

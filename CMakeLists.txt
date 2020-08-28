@@ -26,7 +26,7 @@ set(SRC_FILES
         opengl/font.c
        # opengl/mlx_string_put.c
         SRCS/main.c
-        SRCS/parser_help.c SRCS/help_func.c SRCS/init.c SRCS/parser_help2.c SRCS/checking.c libft/my_put_images.c)
+        SRCS/parser_help.c SRCS/help_func.c SRCS/init.c SRCS/parser_help2.c SRCS/checking.c SRCS/my_put_images.c)
 
 add_executable(cub3d
         ${HEADER_FILES}
