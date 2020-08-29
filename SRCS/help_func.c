@@ -36,3 +36,7 @@ void checkmap(char *ln, t_parse *parse)
 	if (ft_strlen(ln) >parse-> maps_x)
 		parse->maps_x = ft_strlen(ln);
 }
+int create_trgb(int t, int r, int g, int b)
+{
+	return (t << 24 | r << 16 | g << 8 | b);
+}

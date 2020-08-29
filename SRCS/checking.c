@@ -12,9 +12,9 @@ void verification_arg(t_parse *parse)
 
 	if (parse->x <= 0 || parse->y <= 0 ||parse-> maps_x == 0 ||parse-> maps_y == 0)
 		error("Incorrect value maps or resolution");
-	/*if (open(parse->NO, O_RDONLY) == -1 || open(parse->WE, O_RDONLY) == -1 ||
-		open(parse->SO, O_RDONLY) == -1 || open(parse->EA, O_RDONLY) == -1 ||
-		open(parse->S, O_RDONLY) == -1)
+	/*if (open(parse->no, O_RDONLY) == -1 || open(parse->we, O_RDONLY) == -1 ||
+		open(parse->so, O_RDONLY) == -1 || open(parse->ea, O_RDONLY) == -1 ||
+		open(parse->s, O_RDONLY) == -1)
 			error("Error open map");*/
 	verification_map(parse);
 }

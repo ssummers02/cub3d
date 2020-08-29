@@ -6,7 +6,7 @@ int parser_help_we(char *ln, t_parse *parse)
 
 	if (ft_strncmp("WE", ln, 2) == 0)
 	{
-		if (ft_strlen(parse->WE) != 0)
+		if (ft_strlen(parse->we) != 0)
 			error("Incorrect texture");
 		ln += 2;
 		while (*ln == ' ')
@@ -18,9 +18,9 @@ int parser_help_we(char *ln, t_parse *parse)
 			parse->temp++;
 			ln++;
 		}
-		if (!(parse->WE = malloc(sizeof(char) * parse->temp)))
+		if (!(parse->we = malloc(sizeof(char) * parse->temp)))
 			error("Cannot allocate memory");
-		parse->WE = ft_strcpy(parse->WE, temp);
+		parse->we = ft_strcpy(parse->we, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;
 		if (*ln != '\0')
@@ -35,7 +35,7 @@ int parser_help_ea(char *ln, t_parse *parse)
 
 	if (ft_strncmp("EA", ln, 2) == 0)
 	{
-		if (ft_strlen(parse->EA) != 0)
+		if (ft_strlen(parse->ea) != 0)
 			error("Incorrect texture");
 		ln += 2;
 		while (*ln == ' ')
@@ -47,9 +47,9 @@ int parser_help_ea(char *ln, t_parse *parse)
 			parse->temp++;
 			ln++;
 		}
-		if (!(parse->EA = malloc(sizeof(char) * parse->temp)))
+		if (!(parse->ea = malloc(sizeof(char) * parse->temp)))
 			error("Cannot allocate memory");
-		parse->EA = ft_strcpy(parse->EA, temp);
+		parse->ea = ft_strcpy(parse->ea, temp);
 		while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 || *ln == ' ')
 			ln++;
 		if (*ln != '\0')
@@ -69,7 +69,7 @@ int parser_help_s(char *ln, t_parse *parse)
 		ln += 1;
 		if (*ln != 'O')
 		{
-			if (ft_strlen(parse->S) != 0)
+			if (ft_strlen(parse->s) != 0)
 				error("Incorrect texture");
 			while (*ln == ' ')
 				ln++;
@@ -80,9 +80,9 @@ int parser_help_s(char *ln, t_parse *parse)
 				parse->temp++;
 				ln++;
 			}
-			if (!(parse->S = malloc(sizeof(char) * parse->temp)))
+			if (!(parse->s = malloc(sizeof(char) * parse->temp)))
 				error("Cannot allocate memory");
-			parse->S = ft_strcpy(parse->S, temp);
+			parse->s = ft_strcpy(parse->s, temp);
 			while (*ln == '.' || *ln == '/' || ft_isalpha(*ln) == 1 ||
 				   *ln == ' ')
 				ln++;

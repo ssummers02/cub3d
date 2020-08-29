@@ -12,7 +12,23 @@
 #include <math.h>
 
 #define FOV 1.15192
-
+# define ESC 53
+# define UP 126
+# define DOWN 125
+# define LEFT 123
+# define RIGHT 124
+# define W 13
+# define A 0
+# define S 1
+# define D 2
+typedef struct s_data
+{
+	void *img;
+	char *addr;
+	int bits_per_pixel;
+	int line_length;
+	int endian;
+} t_data;
 typedef struct s_color
 {
 	int r;
@@ -28,11 +44,11 @@ typedef struct s_parse
 {
 	int x;
 	int y;
-	char *NO;
-	char *SO;
-	char *WE;
-	char *EA;
-	char *S;
+	char *no;
+	char *so;
+	char *we;
+	char *ea;
+	char *s;
 	t_color *floor;
 	t_color *ceilling;
 	int temp;
@@ -43,7 +59,13 @@ typedef struct s_parse
 	double player_a;
 
 } t_parse;
-
+void my_mlx_pixel_put(t_data *data, int x, int y, int color);
+void mlx_put_maps_pixel(t_data *data, int x, int y, int color, t_parse *parse);
+void mlx_create_maps(t_data img, t_parse *parse);
+void mlx_create_wall(t_data img, t_parse *parse);
+void mlx_create_sky_land(t_data img, t_parse *parse);
+int create_trgb(int t, int r, int g, int b)
+;
 void initplayers(t_parse *parse);
 
 void error(char *c);
