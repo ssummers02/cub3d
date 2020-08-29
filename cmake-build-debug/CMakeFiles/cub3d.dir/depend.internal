@@ -45,6 +45,12 @@ CMakeFiles/cub3d.dir/SRCS/main.c.o
  /Users/ssummers/CLionProjects/cub3d/INCLUDES/get_next_line.h
  /Users/ssummers/CLionProjects/cub3d/INCLUDES/libft.h
  /Users/ssummers/CLionProjects/cub3d/SRCS/main.c
+CMakeFiles/cub3d.dir/SRCS/my_put_images.c.o
+ ../opengl/mlx.h
+ /Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h
+ /Users/ssummers/CLionProjects/cub3d/INCLUDES/get_next_line.h
+ /Users/ssummers/CLionProjects/cub3d/INCLUDES/libft.h
+ /Users/ssummers/CLionProjects/cub3d/SRCS/my_put_images.c
 CMakeFiles/cub3d.dir/SRCS/parser_help.c.o
  ../opengl/mlx.h
  /Users/ssummers/CLionProjects/cub3d/INCLUDES/cub.h

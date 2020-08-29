@@ -67,8 +67,7 @@ void mlx_create_sky_land(t_data img, t_parse *parse)
 	int f = create_trgb(0, parse->floor->r,
 						parse->floor->g,
 						parse->floor->b);
-	free(parse->floor);
-	free(parse->ceilling);
+
 	while (i < parse->y)
 	{
 		j = 0;
@@ -93,19 +92,21 @@ void mlx_create_wall(t_data img, t_parse *parse)
 	int i;
 	i = 0;
 	float dis = 0;
-	printf("%d\t%d", parse->x, parse->y);
 	while (i < parse->x)
 	{
 		float angle = parse->player_a - FOV / 2 + FOV * i / (float) parse->x;
+		if (angle > 2 * M_PI)
+			angle -= 2 * M_PI;
 		while (dis < 20)
 		{
-			float x = parse->player->x + dis * cosf(angle);
-			float y = parse->player->y + dis * sinf(angle);
+			double x = parse->player->x + dis * cosf(angle);
+			double y = parse->player->y + dis * sinf(angle);
 			if (parse->maps[(int) y][(int) x] == '1') break;
 			dis += 0.01;
 		}
 		dis *= cos(angle - parse->player_a);
-		int nCeiling = (float) ((parse->y / 2.0) - parse->y / (float) dis);
+
+		int nCeiling = (float) (parse->y / 2.0) - parse->y / ((float) dis);
 		if (nCeiling > parse->y || nCeiling < 0)
 			nCeiling = 0;
 		int nFloor = parse->y - nCeiling;
@@ -116,5 +117,13 @@ void mlx_create_wall(t_data img, t_parse *parse)
 			nCeiling++;
 		}
 		i++;
+		ft_putnbr_fd((int) angle, 1);
+		ft_putchar_fd('\t', 1);
+		ft_putnbr_fd((int) dis, 1);
+		ft_putchar_fd('\t', 1);
+		ft_putnbr_fd((int) nCeiling, 1);
+		ft_putchar_fd('\t', 1);
+		ft_putnbr_fd((int) nFloor, 1);
+		ft_putchar_fd('\t', 1);
 	}
 }

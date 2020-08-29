@@ -18,9 +18,9 @@
 ** возвращает указатель на строку назначения (dst)
 */
 
-char		*ft_strcpy(char *dst, const char *src)
+char *ft_strcpy(char *dst, const char *src)
 {
-	int		i;
+	int i;
 
 	i = 0;
 	while (src[i] != '\0')
@@ -37,9 +37,9 @@ char		*ft_strcpy(char *dst, const char *src)
 ** возвращает количество символов в строке
 */
 
-size_t		ft_strlen(const char *s)
+size_t ft_strlen(const char *s)
 {
-	size_t	i;
+	size_t i;
 
 	i = 0;
 	while (s[i])
@@ -55,11 +55,11 @@ size_t		ft_strlen(const char *s)
 ** то указывает смещение относительно конца строки.
 */
 
-char		*ft_substr(char const *s, unsigned int start, size_t len)
+char *ft_substr(char const *s, unsigned int start, size_t len)
 {
-	size_t	i;
-	size_t	size;
-	char	*result;
+	size_t i;
+	size_t size;
+	char *result;
 
 	i = 0;
 	if (!s)
@@ -88,9 +88,9 @@ char		*ft_substr(char const *s, unsigned int start, size_t len)
 ** или Указатель на дублирующую строку
 */
 
-char		*ft_strdup(const char *s1)
+char *ft_strdup(const char *s1)
 {
-	char	*dest;
+	char *dest;
 
 	dest = malloc((ft_strlen(s1) + 1) * sizeof(char));
 	return (dest ? ft_strcpy(dest, s1) : dest);
@@ -102,10 +102,10 @@ char		*ft_strdup(const char *s1)
 ** возвращает размер строки по адресу src
 */
 
-size_t		ft_strlcpy(char *dst, char const *src, size_t size)
+size_t ft_strlcpy(char *dst, char const *src, size_t size)
 {
-	size_t	i;
-	size_t	src_len;
+	size_t i;
+	size_t src_len;
 
 	i = 0;
 	src_len = ft_strlen(src);
