@@ -13,6 +13,8 @@ SRC =  SRCS/ft_atoi.c\
               SRCS/ft_isalpha.c\
               SRCS/main.c\
                SRCS/my_put_images.c\
+               SRCS/ft_putnbr_fd.c\
+               SRCS/ft_putchar_fd.c\
               SRCS/parser_help.c SRCS/help_func.c SRCS/init.c SRCS/parser_help2.c SRCS/checking.c
 
 

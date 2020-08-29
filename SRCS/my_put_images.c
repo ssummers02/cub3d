@@ -87,13 +87,15 @@ void mlx_create_sky_land(t_data img, t_parse *parse)
 	}
 }
 
+
 void mlx_create_wall(t_data img, t_parse *parse)
 {
 	int i;
 	i = 0;
-	float dis = 0;
+	float dis;
 	while (i < parse->x)
 	{
+		dis = 0;
 		float angle = parse->player_a - FOV / 2 + FOV * i / (float) parse->x;
 		if (angle > 2 * M_PI)
 			angle -= 2 * M_PI;
@@ -117,13 +119,44 @@ void mlx_create_wall(t_data img, t_parse *parse)
 			nCeiling++;
 		}
 		i++;
-		ft_putnbr_fd((int) angle, 1);
-		ft_putchar_fd('\t', 1);
-		ft_putnbr_fd((int) dis, 1);
-		ft_putchar_fd('\t', 1);
-		ft_putnbr_fd((int) nCeiling, 1);
-		ft_putchar_fd('\t', 1);
-		ft_putnbr_fd((int) nFloor, 1);
-		ft_putchar_fd('\t', 1);
 	}
 }
+
+/*
+void mlx_create_wall(t_data img, t_parse *parse)
+{
+	int x;
+	x = 0;
+	while (x < parse->x)
+	{
+		float dis = 0.0f;
+		float angle = (parse->player_a - FOV / 2.0f) + ((float) x / (float) parse->y) * FOV; // Направление луча
+		float fEyeX = sinf(angle); // Координаты единичного вектора angle
+		float fEyeY = cosf(angle);
+		while (dis < 20)
+		{
+			dis += 0.1f;
+			int nTestX = (int)(parse->x + fEyeX*dis); // Точка на игровом поле
+			int nTestY = (int)(parse->y + fEyeY*dis);
+			if (nTestX < 0 || nTestX >= parse->x || nTestY < 0 ||
+				nTestY >= parse->y)
+			{
+				dis = 10;
+				break;
+			}
+			else if (parse->maps[nTestY][nTestX] == '1')
+				break;
+		}
+		int nCeiling = (float) (parse->y / 2.0) - parse->y / ((float) dis);
+		int nFloor = parse->y - nCeiling;
+		while (nCeiling < nFloor)
+		{
+			my_mlx_pixel_put(&img, x, nCeiling, 0x00FF00);
+			nCeiling++;
+		}
+		x++;
+
+	}
+}
+*/
+
